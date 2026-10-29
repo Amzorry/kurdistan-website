@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#f7f5ee" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <meta name="description" content="An interactive OpenStreetMap travel map for Kurdistan with local city and town guide points." />
+  <title>Kurdistan Travel Map</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <link rel="stylesheet" href="map.css" />
+</head>
+<body>
+  <main class="app">
+    <header class="masthead">
+      <a class="back" href="../index.html" aria-label="Back to Kurdistan homepage">← <span>Home</span></a>
+      <div><p class="eyebrow">LAND · PEOPLE · JOURNEYS</p><h1>Kurdistan, explored</h1><p class="intro">Explore real roads, cities, rivers, and landscapes across the region.</p></div>
+      <div class="region-tabs" role="group" aria-label="Choose a region">
+        <button class="region-tab active" data-region="all" aria-pressed="true">All regions</button>
+        <button class="region-tab" data-region="north" aria-pressed="false">Northern Kurdistan <small>Turkey</small></button>
+        <button class="region-tab" data-region="south" aria-pressed="false">Southern Kurdistan <small>Iraq</small></button>
+        <button class="region-tab" data-region="east" aria-pressed="false">Eastern Kurdistan <small>Iran</small></button>
+        <button class="region-tab" data-region="west" aria-pressed="false">Western Kurdistan <small>Syria</small></button>
+      </div>
+    </header>
+    <section class="workspace" aria-label="Interactive travel map">
+      <aside class="explorer">
+        <label class="search-label" for="place-search">Find a place</label>
+        <form id="place-search-form" class="searchbox" role="search"><span aria-hidden="true">⌕</span><input id="place-search" type="search" autocomplete="off" autocapitalize="none" spellcheck="false" enterkeyhint="search" placeholder="City, landmark, nature…"/><button id="clear-search" type="button" aria-label="Clear search" hidden>×</button><button class="search-submit" type="submit" aria-label="Search places">↵</button></form>
+        <div id="search-results" class="search-results" aria-live="polite"></div>
+        <button class="location-button" id="locate">◎ <span>Find my location</span></button>
+        <p id="location-status" class="status" aria-live="polite">Location is only requested when you tap the button.</p>
+        <div class="legend"><h2>Map key</h2><p><i class="key-dot city"></i> Cities and towns</p><p><i class="key-dot guide"></i> Travel guide points</p><p><i class="key-dot user"></i> Your location</p></div>
+        <div id="place-card" class="place-card"><p class="empty-title">Explore the map</p><p>Select a city or town marker, or search for a place to see its details.</p></div>
+        <p class="data-note">Region buttons show approximate map views only. They do not mark or imply precise regional borders.</p>
+      </aside>
+      <div class="map-wrap"><div id="map" role="application" aria-label="OpenStreetMap of Kurdistan and surrounding areas"></div>
+        <div id="tile-error" class="tile-error" role="status" hidden><span id="tile-error-text"></span><button id="retry-tiles" type="button">Retry tiles</button></div>
+        <button class="reset-button" id="reset-map" aria-label="Show all regions">⌂</button>
+      </div>
+    </section>
+    <footer class="credits"><span>Map data: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">OpenStreetMap contributors</a> · City and town coordinates: <a href="https://www.geonames.org/about.html" target="_blank" rel="noreferrer">GeoNames</a> (CC BY 4.0).</span><span>Search: <a href="https://operations.osmfoundation.org/policies/nominatim/" target="_blank" rel="noreferrer">Nominatim</a> · <a href="https://operations.osmfoundation.org/policies/tiles/" target="_blank" rel="noreferrer">Tile policy</a> · <span id="data-state">Map is ready.</span></span></footer>
+  </main>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="" onerror="document.getElementById('tile-error').hidden=false;document.getElementById('tile-error-text').textContent='Leaflet could not load from its CDN. Check your connection and reload the map.';document.getElementById('retry-tiles').hidden=true"></script>
+  <script src="map.js"></script>
+</body>
+</html>
