@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+:root{color-scheme:dark;--bg:#031018;--panel:#061722;--gold:#ffc83d;--text:#f5f7fa;--muted:#aeb9cc;--line:#20394a;--width:940px}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-bottom:96px}body{margin:0;background:var(--bg);color:var(--text);font-family:'DM Sans',Arial,sans-serif;font-size:14px;-webkit-font-smoothing:antialiased}.site-shell{width:min(100%,var(--width));margin:0 auto;padding:0 30px 112px}.hero{height:594px;position:relative;margin:0 -30px;padding:0 30px;overflow:hidden;background:#0c1a22}.hero-photo,.hero-shade{position:absolute;inset:0}.hero-photo{background-image:url('https://commons.wikimedia.org/wiki/Special:FilePath/Rawandiz_Canyon_(Kharand)_01.jpg?width=1800');background-size:cover;background-position:59% 48%;transform:scale(1.01)}.hero-shade{background:linear-gradient(90deg,rgba(2,14,22,.95) 0%,rgba(2,14,22,.73) 35%,rgba(2,14,22,.16) 78%,rgba(2,14,22,.08)),linear-gradient(0deg,#031018 0%,rgba(3,16,24,.82) 9%,transparent 46%,rgba(3,16,24,.25) 100%)}.topbar{height:170px;position:relative;z-index:1;display:grid;grid-template-columns:48px 1fr 92px;align-items:start;padding-top:24px}.icon-button{border:0;background:none;color:#fff;padding:0;display:grid;place-items:center;cursor:pointer}.hamburger{width:36px;height:42px;gap:6px;align-content:center}.hamburger span{width:30px;height:2px;border-radius:4px;background:#fff}.brand{color:#fff;text-decoration:none;display:flex;flex-direction:column;align-items:center;line-height:1}.brand-mark{height:49px;width:151px;margin-top:1px}.brand-name{font:500 22px 'Montserrat',sans-serif;letter-spacing:9px;padding-left:9px;margin-top:2px}.tagline{font-size:9px;letter-spacing:3.2px;margin-top:17px;white-space:nowrap}.tagline i{font-style:normal;color:var(--gold);margin:0 5px}.header-actions{display:flex;justify-content:flex-end;align-items:center;gap:23px;padding-top:20px}.language{background:none;border:0;color:#fff;font-size:15px;cursor:pointer}.language span{font-size:19px;margin-left:4px}.search-toggle svg,.search-submit svg{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.7}.hero-copy{position:relative;z-index:1;margin-top:77px}.eyebrow{font:300 23px 'Montserrat',sans-serif;letter-spacing:.3px;margin:0 0 0}.hero h1{font:700 clamp(48px,9vw,68px)/1.04 'Montserrat',sans-serif;color:var(--gold);letter-spacing:2px;margin:2px 0 4px}.intro{font-size:18px;line-height:1.55;margin:0;max-width:430px}.search-pill{position:relative;z-index:1;margin-top:25px;width:min(424px,100%);height:54px;border:1px solid #728397;border-radius:32px;background:rgba(4,18,27,.72);display:flex;align-items:center;padding:0 15px;backdrop-filter:blur(12px)}.search-pill input{min-width:0;flex:1;background:transparent;border:0;outline:0;color:white;font:16px 'DM Sans',sans-serif;padding:0 12px}.search-pill input::placeholder{color:#c4cad5}.search-submit,.arrow-submit{border:0;background:transparent;color:white;cursor:pointer;display:grid;place-items:center}.arrow-submit{font:38px/1 'DM Sans',sans-serif;width:28px}.photo-caption{position:absolute;z-index:1;bottom:77px;right:34px;margin:0;color:#c9d1d9;font-size:10px;text-shadow:0 1px 5px #000}.photo-caption a{color:#ffdc80;text-decoration:none;margin-left:7px}.categories{display:grid;grid-template-columns:repeat(5,minmax(112px,1fr));gap:14px;margin-top:-15px;position:relative;z-index:2;overflow-x:auto;scrollbar-width:none;padding:0 4px 9px}.categories::-webkit-scrollbar{display:none}.category-card{height:212px;border:1px solid #18384c;border-radius:18px;overflow:hidden;position:relative;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;text-align:center;gap:7px;padding:0 9px 15px;color:#f6f8fc;background-color:#05141d;background-image:linear-gradient(0deg,rgba(1,12,19,.98) 0%,rgba(2,13,20,.81) 42%,rgba(2,13,20,.05) 100%),var(--card-image);background-position:center;background-size:cover;cursor:pointer;transition:transform .2s,border-color .2s}.category-card:hover{transform:translateY(-3px);border-color:#697e8c}.category-card strong{font-size:13px;line-height:1.2}.category-card>span:last-child{font-size:12px;line-height:1.45;color:#d7dce5}.cat-icon{font-size:27px;color:var(--gold);line-height:1;margin-bottom:2px}.category-card:nth-child(2) .cat-icon,.category-card:nth-child(4) .cat-icon{color:white}.featured{height:287px;margin:18px 4px 33px;position:relative;border:1px solid #34556b;border-radius:17px;overflow:hidden;background:#0b1e2a}.featured-image{position:absolute;inset:0;background-image:url('https://commons.wikimedia.org/wiki/Special:FilePath/Rawandiz_Canyon_(Kharand)_01.jpg?width=1500');background-size:cover;background-position:center 49%}.featured-shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(2,13,20,.96) 0%,rgba(2,13,20,.83) 31%,rgba(2,13,20,.18) 76%,rgba(2,13,20,.05)),linear-gradient(0deg,rgba(2,13,20,.3),transparent 60%)}.featured-content{position:relative;z-index:1;padding:24px 26px;max-width:390px}.badge{display:inline-block;background:var(--gold);color:#101316;border-radius:7px;padding:5px 11px;font-size:11px;font-weight:700;letter-spacing:.3px}.featured h2{font:700 29px/1.14 'Montserrat',sans-serif;margin:13px 0 10px;letter-spacing:-.6px}.featured p{font-size:15px;line-height:1.5;margin:0;max-width:300px}.text-link{background:none;border:0;color:var(--gold);font-weight:700;letter-spacing:.25px;padding:0;margin-top:20px;cursor:pointer}.text-link span{font-size:25px;line-height:0;vertical-align:-3px;margin-left:6px}.dots{position:absolute;z-index:1;bottom:22px;right:23px;display:flex;gap:8px}.dots i{width:9px;height:9px;background:#758391;border-radius:50%}.dots i.active{background:var(--gold)}.latest{margin:0 5px}.section-head{display:flex;align-items:center;gap:18px;margin-bottom:12px}.section-head h2{font:500 21px 'Montserrat',sans-serif;letter-spacing:.6px;margin:0}.rule{height:1px;background:#5c7181;flex:1}.view-all{border:0;background:none;color:#fff;font-size:12px;white-space:nowrap;cursor:pointer}.view-all b{font-size:22px;vertical-align:-2px;margin-left:4px;font-weight:400}.story-row{display:grid;grid-template-columns:150px minmax(0,1fr) 24px;gap:17px;align-items:center;padding:8px 0 12px;border-bottom:1px solid #152b38}.story-image{width:150px;height:91px;border:0;border-radius:12px;background-size:cover;background-position:center;cursor:pointer}.news-image{background-image:url('https://commons.wikimedia.org/wiki/Special:FilePath/Kurdish_people_dancing_during_newroz.jpg?width=500')}.music-image{background-image:url('https://commons.wikimedia.org/wiki/Special:FilePath/Ghobad_ghobadi45677.jpg?width=500')}.story-copy{min-width:0}.story-category{font-size:10px;color:var(--gold);font-weight:600;letter-spacing:.6px}.story-copy h3{font-size:16px;line-height:1.45;margin:2px 0 6px;font-weight:600}.story-copy time{font-size:12px;color:#98a8ba}.row-arrow{background:none;border:0;color:#bbc6d4;font-size:32px;font-weight:300;cursor:pointer}.sample-note{font-size:10px;color:#7d8ea1;text-align:right;margin:9px 0 0}.credits{margin:22px 5px 0;color:#a7b3c1;font-size:12px}.credits summary{cursor:pointer;color:#cad2dc}.credits ul{padding-left:20px;line-height:1.8}.credits a{color:#ffdb74}.credits p{line-height:1.5}.bottom-nav{position:fixed;z-index:10;bottom:0;left:50%;transform:translateX(-50%);width:min(100%,var(--width));height:83px;background:rgba(2,13,21,.96);border-top:1px solid #153040;display:flex;justify-content:space-around;align-items:center;padding:6px 22px max(8px,env(safe-area-inset-bottom));backdrop-filter:blur(16px)}.nav-item{min-width:55px;border:0;background:transparent;color:#8f9db7;display:flex;flex-direction:column;align-items:center;gap:4px;cursor:pointer}.nav-item span{font:27px/1 Arial,sans-serif}.nav-item small{font-size:12px}.nav-item.active{color:var(--gold)}.safe-area{height:env(safe-area-inset-bottom);position:fixed;z-index:9;bottom:0;left:0;right:0;background:#020d15;pointer-events:none}.overlay{position:fixed;z-index:20;inset:0;background:rgba(0,5,9,.72);display:none;align-items:flex-end;justify-content:center;padding:18px}.overlay.open{display:flex}.panel{width:min(560px,100%);max-height:84vh;overflow:auto;position:relative;background:#071823;border:1px solid #274355;border-radius:22px;padding:30px 26px 28px;box-shadow:0 24px 90px #000b}.panel-close{position:absolute;right:16px;top:12px;background:none;border:0;color:#cdd6df;font-size:28px;cursor:pointer}.panel h2{font:600 24px 'Montserrat',sans-serif;margin:5px 35px 14px 0}.panel p{line-height:1.65;color:#c3cdd8}.panel .mini-label{font-size:11px;letter-spacing:1px;color:var(--gold);text-transform:uppercase}.panel ul{padding-left:19px;line-height:2;color:#d9e0e7}.panel button.action{background:none;color:var(--gold);border:1px solid #43596b;border-radius:22px;padding:9px 14px;cursor:pointer}.panel .result{border-bottom:1px solid #1e3745;padding:12px 0;cursor:pointer}.panel .result strong{display:block}.panel .result small{color:#96a7b7}.panel figure{margin:12px 0}.panel figure img{width:100%;height:190px;object-fit:cover;border-radius:12px}.panel figure figcaption{font-size:10px;color:#9eacb9;margin-top:6px}
+@media(max-width:700px){.site-shell{padding-left:22px;padding-right:22px}.hero{margin-left:-22px;margin-right:-22px;padding-left:22px;padding-right:22px;height:576px}.hero-photo{background-position:59% center}.hero-shade{background:linear-gradient(90deg,rgba(2,14,22,.93),rgba(2,14,22,.60) 55%,rgba(2,14,22,.14)),linear-gradient(0deg,#031018 0%,rgba(3,16,24,.78) 11%,transparent 48%,rgba(3,16,24,.25))}.topbar{grid-template-columns:38px 1fr 82px;padding-top:21px;height:162px}.brand-mark{width:132px;height:44px}.brand-name{font-size:19px;letter-spacing:8px;padding-left:8px}.tagline{font-size:7px;letter-spacing:2.4px;margin-top:14px}.header-actions{gap:14px;padding-top:17px}.hero-copy{margin-top:84px}.eyebrow{font-size:20px}.hero h1{font-size:clamp(43px,11.5vw,59px)}.intro{font-size:17px}.search-pill{margin-top:25px}.photo-caption{bottom:73px;right:24px;font-size:9px}.categories{margin-left:-22px;margin-right:-22px;padding-left:22px;padding-right:22px;grid-template-columns:repeat(5,130px);gap:12px}.category-card{height:198px}.featured{margin:15px 0 29px;height:278px}.featured-content{padding:22px 21px}.featured h2{font-size:27px}.featured p{font-size:14px;max-width:260px}.bottom-nav{height:77px;padding-left:10px;padding-right:10px}.story-row{grid-template-columns:120px minmax(0,1fr) 18px;gap:13px}.story-image{width:120px;height:82px}.story-copy h3{font-size:14px}.row-arrow{font-size:29px}.section-head{gap:12px}}
+@media(max-width:390px){.site-shell{padding-left:17px;padding-right:17px}.hero{margin-left:-17px;margin-right:-17px;padding-left:17px;padding-right:17px;height:548px}.topbar{grid-template-columns:32px 1fr 71px}.brand-mark{width:116px}.brand-name{font-size:17px;letter-spacing:7px}.tagline{font-size:6px;letter-spacing:2px}.header-actions{gap:10px}.search-toggle svg{width:22px}.hero-copy{margin-top:80px}.hero h1{font-size:43px}.intro{font-size:15px}.categories{margin-left:-17px;margin-right:-17px;padding-left:17px;padding-right:17px;grid-template-columns:repeat(5,119px)}.category-card{height:185px}.story-row{grid-template-columns:98px minmax(0,1fr) 16px;gap:11px}.story-image{width:98px;height:77px}.story-copy h3{font-size:13px}.story-copy time{font-size:11px}.section-head h2{font-size:18px}}
+@media(min-width:900px){.hero{height:620px}.topbar{height:174px}.hero-copy{margin-top:94px}.categories{margin-top:-21px}.category-card{height:235px}.featured{height:315px}.featured-content{padding:32px}.featured h2{font-size:34px}.featured p{font-size:16px}.story-row{grid-template-columns:176px minmax(0,1fr) 30px}.story-image{width:176px;height:105px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important}}
+
+/* Wide-screen layout. All phone/tablet rules above remain the baseline. */
+@media(min-width:1000px){
+  :root{--width:1360px}
+  html{scroll-padding-bottom:32px}
+  .site-shell{
+    display:grid;
+    grid-template-columns:minmax(0,1.08fr) minmax(360px,.92fr);
+    grid-template-areas:
+      "hero hero"
+      "categories categories"
+      "featured latest"
+      "credits credits";
+    column-gap:30px;
+    align-content:start;
+    width:min(100%,var(--width));
+    padding:0 56px 100px;
+  }
+  .hero{grid-area:hero;height:650px;margin:0 -56px;padding:0 56px}
+  .hero-photo{background-position:58% 48%}
+  .hero-shade{background:linear-gradient(90deg,rgba(2,14,22,.94) 0%,rgba(2,14,22,.72) 34%,rgba(2,14,22,.15) 76%,rgba(2,14,22,.06)),linear-gradient(0deg,#031018 0%,rgba(3,16,24,.76) 9%,transparent 48%,rgba(3,16,24,.2) 100%)}
+  .topbar{height:176px;grid-template-columns:60px 1fr 130px;padding-top:30px}
+  .brand-mark{width:172px;height:56px}
+  .brand-name{font-size:24px;letter-spacing:10px;padding-left:10px}
+  .tagline{font-size:10px;letter-spacing:3.5px}
+  .header-actions{gap:28px;padding-top:22px}
+  .hero-copy{margin-top:112px;max-width:600px}
+  .eyebrow{font-size:25px}
+  .hero h1{font-size:clamp(68px,6.3vw,88px);letter-spacing:3px}
+  .intro{font-size:20px;max-width:500px}
+  .search-pill{width:min(500px,100%);height:58px;margin-top:29px}
+  .photo-caption{right:64px;bottom:32px;font-size:11px}
+  .categories{grid-area:categories;grid-template-columns:repeat(5,minmax(0,1fr));gap:18px;margin:22px 0 0;padding:0 4px 10px;overflow:visible}
+  .category-card{height:238px;border-radius:19px;padding-bottom:18px}
+  .category-card strong{font-size:14px}
+  .category-card>span:last-child{font-size:13px}
+  .cat-icon{font-size:30px}
+  .featured{grid-area:featured;align-self:stretch;height:auto;min-height:410px;margin:24px 0 38px;border-radius:19px}
+  .featured-image{background-position:56% center}
+  .featured-shade{background:linear-gradient(90deg,rgba(2,13,20,.94) 0%,rgba(2,13,20,.72) 39%,rgba(2,13,20,.08) 100%),linear-gradient(0deg,rgba(2,13,20,.3),transparent 70%)}
+  .featured-content{padding:34px 32px;max-width:430px}
+  .featured h2{font-size:36px;line-height:1.15}
+  .featured p{font-size:16px;max-width:330px}
+  .text-link{margin-top:24px}
+  .latest{grid-area:latest;align-self:stretch;margin:24px 0 38px;padding:20px 22px 14px;border:1px solid #183545;border-radius:19px;background:linear-gradient(145deg,rgba(8,27,39,.86),rgba(4,18,27,.6))}
+  .section-head{gap:14px;margin-bottom:16px}
+  .section-head h2{font-size:22px}
+  .story-row{grid-template-columns:clamp(108px,11vw,148px) minmax(0,1fr) 22px;gap:14px;padding:13px 0 16px}
+  .story-image{width:100%;height:92px;border-radius:12px}
+  .story-copy h3{font-size:15px;line-height:1.4}
+  .story-copy time{font-size:12px}
+  .row-arrow{font-size:30px}
+  .sample-note{text-align:left;margin-top:13px}
+  .credits{grid-area:credits;margin:0 4px 0;padding:18px 0 28px;border-top:1px solid #18303e}
+  .bottom-nav{
+    left:auto;
+    right:max(28px,calc((100vw - var(--width))/2 + 18px));
+    bottom:22px;
+    transform:none;
+    width:auto;
+    height:68px;
+    padding:7px 10px;
+    gap:2px;
+    border:1px solid #294251;
+    border-radius:19px;
+    background:rgba(3,16,24,.94);
+    box-shadow:0 14px 40px rgba(0,0,0,.38);
+  }
+  .nav-item{min-width:68px;gap:3px}
+  .nav-item span{font-size:23px}
+  .nav-item small{font-size:11px}
+  .safe-area{display:none}
+}
+
+@media(min-width:1280px){
+  .site-shell{column-gap:36px;padding-right:64px;padding-left:64px}
+  .hero{height:690px;margin-right:-64px;margin-left:-64px;padding-right:64px;padding-left:64px}
+  .hero-copy{margin-top:128px}
+  .categories{gap:20px;margin-top:28px}
+  .category-card{height:254px}
+  .featured{min-height:440px;margin-top:30px;padding-top:4px}
+  .featured-content{padding:40px 38px}
+  .featured h2{font-size:40px}
+  .latest{margin-top:30px;padding:24px 26px 18px}
+  .story-row{gap:17px;padding-top:15px;padding-bottom:17px}
+  .story-image{height:104px}
+}
+
+/* Link to the companion travel map from the existing hamburger menu. */
+.panel a.map-result{display:flex;align-items:center;gap:13px;color:inherit;text-decoration:none;border-radius:10px}
+.panel a.map-result:hover,.panel a.map-result:focus-visible{background:rgba(255,200,61,.06);outline:1px solid rgba(255,200,61,.32);outline-offset:-1px}
+.panel .map-result-icon{flex:0 0 32px;color:var(--gold);font-size:25px;line-height:1;text-align:center}
+.panel .map-result small{display:block;margin-top:3px}
