@@ -91,3 +91,9 @@
   .story-row{gap:17px;padding-top:15px;padding-bottom:17px}
   .story-image{height:104px}
 }
+
+/* Link to the companion travel map from the existing hamburger menu. */
+.panel a.map-result{display:flex;align-items:center;gap:13px;color:inherit;text-decoration:none;border-radius:10px}
+.panel a.map-result:hover,.panel a.map-result:focus-visible{background:rgba(255,200,61,.06);outline:1px solid rgba(255,200,61,.32);outline-offset:-1px}
+.panel .map-result-icon{flex:0 0 32px;color:var(--gold);font-size:25px;line-height:1;text-align:center}
+.panel .map-result small{display:block;margin-top:3px}
