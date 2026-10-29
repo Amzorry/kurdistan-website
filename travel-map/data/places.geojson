@@ -1,0 +1,66 @@
+{
+  "type": "FeatureCollection",
+  "name": "Selected city gazetteer",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "geonames-96994",
+      "properties": {
+        "name": "Duhok",
+        "aliases": ["Dohuk", "Duhok", "Dahuk", "Dihok", "Dihuk", "Dihōk"],
+        "kind": "City",
+        "country": "Iraq",
+        "region": "south",
+        "source": "GeoNames",
+        "sourceId": "96994",
+        "sourceUrl": "https://www.geonames.org/96994/dihok.html"
+      },
+      "geometry": {"type": "Point", "coordinates": [42.98790402, 36.86607573]}
+    },
+    {
+      "type": "Feature",
+      "id": "geonames-98463",
+      "properties": {
+        "name": "Sulaymaniyah",
+        "aliases": ["As Sulaymaniyah", "Sulaimani", "Slemani", "Silêmanî"],
+        "kind": "City",
+        "country": "Iraq",
+        "region": "south",
+        "source": "GeoNames",
+        "sourceId": "98463",
+        "sourceUrl": "https://www.geonames.org/98463/as-sulaymaniyah.html"
+      },
+      "geometry": {"type": "Point", "coordinates": [45.43290, 35.56496]}
+    },
+    {
+      "type": "Feature",
+      "id": "geonames-316541",
+      "properties": {
+        "name": "Diyarbakır",
+        "aliases": ["Diyarbakir", "Amed", "Amida"],
+        "kind": "City",
+        "country": "Turkey",
+        "region": "north",
+        "source": "GeoNames",
+        "sourceId": "316541",
+        "sourceUrl": "https://www.geonames.org/316541/diyarbakir.html"
+      },
+      "geometry": {"type": "Point", "coordinates": [40.21721, 37.91363]}
+    },
+    {
+      "type": "Feature",
+      "id": "geonames-173811",
+      "properties": {
+        "name": "Al-Hasakah",
+        "aliases": ["Al Hasakah", "Hasakah", "Hasaka", "Heseke"],
+        "kind": "City",
+        "country": "Syria",
+        "region": "west",
+        "source": "GeoNames",
+        "sourceId": "173811",
+        "sourceUrl": "https://www.geonames.org/173811/al-asakah.html"
+      },
+      "geometry": {"type": "Point", "coordinates": [40.74772, 36.50237]}
+    }
+  ]
+}
