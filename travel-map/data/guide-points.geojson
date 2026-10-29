@@ -1,0 +1,38 @@
+{
+  "type": "FeatureCollection",
+  "name": "Selected local travel guide towns",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "geonames-445694",
+      "properties": {
+        "name": "Akre",
+        "aliases": ["Akra", "Akrê", "Aqra"],
+        "kind": "Town",
+        "country": "Iraq",
+        "region": "south",
+        "guide": true,
+        "source": "GeoNames",
+        "sourceId": "445694",
+        "sourceUrl": "https://www.geonames.org/445694/-akra.html"
+      },
+      "geometry": {"type": "Point", "coordinates": [43.88038, 36.73359]}
+    },
+    {
+      "type": "Feature",
+      "id": "geonames-92002",
+      "properties": {
+        "name": "Rawanduz",
+        "aliases": ["Ruwandiz", "Rawandiz", "Rawānduz", "Ravanduz"],
+        "kind": "Town",
+        "country": "Iraq",
+        "region": "south",
+        "guide": true,
+        "source": "GeoNames",
+        "sourceId": "92002",
+        "sourceUrl": "https://www.geonames.org/92002/ruwandiz.html"
+      },
+      "geometry": {"type": "Point", "coordinates": [44.52194, 36.61140]}
+    }
+  ]
+}
